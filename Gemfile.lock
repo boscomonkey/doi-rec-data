@@ -1,0 +1,32 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    ffi (1.9.6)
+    hitimes (1.2.2)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.2)
+    listen (2.8.5)
+      celluloid (>= 0.15.2)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    minitest (5.5.1)
+    multi_xml (0.5.5)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rerun (0.10.0)
+      listen (~> 2.7, >= 2.7.3)
+    timers (4.0.1)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  minitest
+  rerun
