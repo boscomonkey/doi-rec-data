@@ -17,11 +17,11 @@ class RecData
   base_uri 'https://ridb-dev.nsitellc.com'
 
   def initialize(key)
-    @options = { query: {apikey: key} }
+    @options = { headers: {'apikey' => key} }
   end
 
   def organizations
-    self.class.get("/api/v1/organizations.json", @options)
+    self.class.get("/api/v1/organizations", @options)
   end
 
 end
